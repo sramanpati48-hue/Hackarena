@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@import 'maplibre-gl/dist/maplibre-gl.css';
+
+@theme {
+  --color-primary: #00634B;
+  --color-primary-hover: #014D3C;
+  --color-secondary: #004D3C;
+  --color-accent: #F57C00;
+  --color-background: #F8F9FA;
+  --color-sidebar-bg: #FFFFFF;
+  --color-text-main: #1A1A1A;
+  --color-text-muted: #666666;
+  --color-border: #E5E7EB;
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-main antialiased;
+  }
+}
+
+/* Custom Scrollbar for Logs */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.2);
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(148, 163, 184, 0.4);
+}
+
+/* Theme-specific scrollbars */
+.custom-scrollbar-slate::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar-slate::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar-slate::-webkit-scrollbar-thumb {
+  background-color: rgba(71, 85, 105, 0.4);
+  border-radius: 20px;
+}
+
+.custom-scrollbar-slate::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(71, 85, 105, 0.6);
+}
+
+.custom-scrollbar-emerald::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar-emerald::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar-emerald::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 185, 129, 0.2);
+  border-radius: 20px;
+}
+
+.custom-scrollbar-emerald::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(16, 185, 129, 0.4);
+}
+
+/* Markdown Styles */
+.prose-invert {
+  --tw-prose-body: #94a3b8;
+  --tw-prose-headings: #f1f5f9;
+  --tw-prose-lead: #cbd5e1;
+  --tw-prose-links: #38bdf8;
+  --tw-prose-bold: #f1f5f9;
+  --tw-prose-counters: #94a3b8;
+  --tw-prose-bullets: #475569;
+  --tw-prose-hr: #334155;
+  --tw-prose-quotes: #f1f5f9;
+  --tw-prose-quote-borders: #334155;
+  --tw-prose-captions: #94a3b8;
+  --tw-prose-code: #f1f5f9;
+  --tw-prose-pre-code: #e2e8f0;
+  --tw-prose-pre-bg: #1e293b;
+  --tw-prose-th-borders: #334155;
+  --tw-prose-td-borders: #1e293b;
+}
+
+/* Red and Black Animated Button */
+.btn-rb-animated {
+  background: linear-gradient(-45deg, #000000, #E51515, #000000, #E51515);
+  background-size: 400% 400%;
+  animation: gradient-animation 6s ease infinite;
+  @apply transition-transform duration-300 hover:scale-105 active:scale-95;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
