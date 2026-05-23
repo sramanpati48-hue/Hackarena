@@ -8,3 +8,10 @@ venv/
 .env.production.local
 **/.env
 **/.env.*
+/pg
+/pg17
+pg/
+pg17/
+*.zip
+*.sql
+supabase.exe
