@@ -4,6 +4,7 @@ langgraph
 langchain
 langchain-core
 langchain-openai
+openai
 langchain-groq
 pydantic
 python-dotenv

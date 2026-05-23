@@ -23,6 +23,7 @@ import { SahayakBrowserPanel } from "./SahayakBrowserPanel";
 import { NodalGuideBrowserPanel } from "./NodalGuideBrowserPanel";
 import { FemaleNyayGuidePanel } from "./FemaleCounsellorPanel";
 import { RoutingConsentModal } from "./RoutingConsentModal";
+import { ClashFloatingButton } from "@/components/clash/ClashFloatingButton";
 interface Message {
   role: "user" | "assistant";
   content: string;
@@ -1564,6 +1565,8 @@ export function ChatInterface() {
           />
         )}
       </main>
+
+      <ClashFloatingButton />
     </div>
   );
 }

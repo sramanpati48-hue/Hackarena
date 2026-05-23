@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import {
     Home,
@@ -18,7 +18,9 @@ import {
     Activity,
     Database,
     HeartHandshake,
-    MessageSquare
+    MessageSquare,
+    Swords,
+    GraduationCap
 } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Link from 'next/link';
@@ -51,6 +53,9 @@ const guideNavItems = [
 export const Sidebar = () => {
     const { user, logout, role, loading } = useAuth();
     const pathname = usePathname();
+    const [clashOpen, setClashOpen] = useState(
+        () => pathname.startsWith('/clash')
+    );
 
     const normalizedRole = (role || '').trim().toLowerCase();
     const isModeratorRoute = pathname.startsWith('/moderator');
@@ -124,27 +129,75 @@ export const Sidebar = () => {
                             </Link>
                         </div>
                     );
-                }) : isVictim ? victimNavItems.map((item, index) => {
-                    const isActive = pathname === item.href;
-                    return (
-                        <div key={index} className="mb-1">
-                            <Link href={item.href}>
-                                <button
-                                    className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg transition-all duration-200 group ${isActive
-                                        ? 'bg-[#00634B] text-white shadow-lg shadow-[#00634B]/20'
-                                        : 'text-[#4B5563] hover:bg-gray-50 hover:pl-4 focus:ring-2 focus:ring-[#00634B]/20'
-                                        }`}
-                                >
-                                    <div className="flex items-center gap-3">
-                                        {React.createElement(item.icon, { size: 20, className: isActive ? 'text-white' : 'text-[#6B7280] group-hover:text-[#00634B]' })}
-                                        <span className={`font-medium text-sm transition-transform ${isActive ? 'scale-105' : 'group-hover:translate-x-1'}`}>{item.label}</span>
-                                    </div>
-                                    {('hasSub' in item && (item as any).hasSub) && <ChevronDown size={14} className={isActive ? 'text-white' : 'text-gray-400 group-hover:text-[#00634B]'} />}
-                                </button>
-                            </Link>
+                }) : isVictim ? (
+                    <>
+                        {victimNavItems.map((item, index) => {
+                            const isActive = pathname === item.href;
+                            return (
+                                <div key={index} className="mb-1">
+                                    <Link href={item.href}>
+                                        <button
+                                            className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg transition-all duration-200 group ${isActive
+                                                ? 'bg-[#00634B] text-white shadow-lg shadow-[#00634B]/20'
+                                                : 'text-[#4B5563] hover:bg-gray-50 hover:pl-4 focus:ring-2 focus:ring-[#00634B]/20'
+                                                }`}
+                                        >
+                                            <div className="flex items-center gap-3">
+                                                {React.createElement(item.icon, { size: 20, className: isActive ? 'text-white' : 'text-[#6B7280] group-hover:text-[#00634B]' })}
+                                                <span className={`font-medium text-sm transition-transform ${isActive ? 'scale-105' : 'group-hover:translate-x-1'}`}>{item.label}</span>
+                                            </div>
+                                            {('hasSub' in item && (item as { hasSub?: boolean }).hasSub) && <ChevronDown size={14} className={isActive ? 'text-white' : 'text-gray-400 group-hover:text-[#00634B]'} />}
+                                        </button>
+                                    </Link>
+                                </div>
+                            );
+                        })}
+                        <div className="mb-1">
+                            <button
+                                type="button"
+                                onClick={() => setClashOpen((o) => !o)}
+                                aria-expanded={clashOpen}
+                                aria-controls="clash-submenu"
+                                className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg transition-all duration-200 group ${pathname.startsWith('/clash')
+                                    ? 'bg-[#00634B] text-white shadow-lg shadow-[#00634B]/20'
+                                    : 'text-[#4B5563] hover:bg-gray-50 hover:pl-4 focus:ring-2 focus:ring-[#00634B]/20'
+                                    }`}
+                            >
+                                <div className="flex items-center gap-3">
+                                    <Swords size={20} className={pathname.startsWith('/clash') ? 'text-white' : 'text-[#6B7280] group-hover:text-[#00634B]'} />
+                                    <span className="font-medium text-sm">Clash</span>
+                                </div>
+                                <ChevronDown
+                                    size={14}
+                                    className={`transition-transform ${clashOpen ? 'rotate-180' : ''} ${pathname.startsWith('/clash') ? 'text-white' : 'text-gray-400'}`}
+                                />
+                            </button>
+                            {clashOpen && (
+                                <div id="clash-submenu" className="ml-4 mt-1 space-y-0.5 border-l-2 border-emerald-100 pl-2">
+                                    <Link href="/clash?mode=practice">
+                                        <button
+                                            className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm ${pathname.startsWith('/clash') && !pathname.includes('real')
+                                                ? 'text-[#00634B] font-semibold bg-emerald-50'
+                                                : 'text-gray-500 hover:text-[#00634B] hover:bg-gray-50'
+                                                }`}
+                                        >
+                                            <GraduationCap size={16} aria-hidden />
+                                            Practice
+                                        </button>
+                                    </Link>
+                                    <Link href="/clash?mode=real_life">
+                                        <button
+                                            className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-gray-500 hover:text-[#00634B] hover:bg-gray-50`}
+                                        >
+                                            <Scale size={16} aria-hidden />
+                                            Real Life
+                                        </button>
+                                    </Link>
+                                </div>
+                            )}
                         </div>
-                    );
-                }) : null}
+                    </>
+                ) : null}
 
                 {isLawyer && (
                     <div className="mt-4 pt-4 border-t border-gray-100 space-y-2">

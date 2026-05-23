@@ -13,6 +13,8 @@ from fastapi import WebSocket, WebSocketDisconnect
 from websocket_manager import manager
 from database.pdf_service import generate_and_upload_report_pdf
 from webhook_poller import poller
+import clash_service
+from clash_schemas import ClashAnswerRequest, ClashCaseInput, ClashSessionCreate
 
 app = FastAPI(title="NyaySahayak API", description="AI Agentic Legal Assistant", root_path="/apis")
 
@@ -1560,6 +1562,81 @@ async def chat_stream(user_query: UserQuery):
             yield json.dumps({"type": "error", "content": error_msg}) + "\n"
 
     return StreamingResponse(event_stream(), media_type="application/x-ndjson")
+
+
+# ─────────────────────────────────────────────────────────────────
+# Clash Mode — adversarial legal debate simulator
+# ─────────────────────────────────────────────────────────────────
+
+@app.post("/api/clash/sessions")
+async def clash_create_session(payload: ClashSessionCreate):
+    session = clash_service.create_session(payload)
+    return {"session_id": session.session_id, "mode": session.mode.value, "status": session.status}
+
+
+@app.get("/api/clash/mock-cases")
+async def clash_mock_cases():
+    cases = clash_service.get_mock_cases()
+    return {"cases": [c.model_dump() for c in cases]}
+
+
+@app.put("/api/clash/sessions/{session_id}/case")
+async def clash_attach_case(session_id: str, case: ClashCaseInput):
+    try:
+        session = clash_service.attach_case(session_id, case)
+        return session.model_dump()
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@app.get("/api/clash/sessions/{session_id}")
+async def clash_get_session(session_id: str):
+    session = clash_service.get_session(session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    return session.model_dump()
+
+
+@app.post("/api/clash/sessions/{session_id}/stream")
+async def clash_stream_debate(session_id: str):
+    session = clash_service.get_session(session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    async def event_stream():
+        async for line in clash_service.stream_debate(session_id):
+            yield line
+
+    return StreamingResponse(
+        event_stream(),
+        media_type="application/x-ndjson",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+            "Connection": "keep-alive",
+        },
+    )
+
+
+@app.post("/api/clash/sessions/{session_id}/answer")
+async def clash_submit_answer(session_id: str, body: ClashAnswerRequest):
+    session = clash_service.get_session(session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    async def event_stream():
+        async for line in clash_service.stream_answer(session_id, body):
+            yield line
+
+    return StreamingResponse(
+        event_stream(),
+        media_type="application/x-ndjson",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+            "Connection": "keep-alive",
+        },
+    )
 
 @app.post("/chat/audio-stream")
 async def chat_audio_stream(

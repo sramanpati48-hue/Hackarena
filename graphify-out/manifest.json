@@ -1,0 +1,1427 @@
+{
+  "D:\\projects\\Hackarena\\agent_graph.py": {
+    "mtime": 1779519772.0288496,
+    "ast_hash": "989aeae4fdda96611deaad929574d940",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\debug_env.py": {
+    "mtime": 1779519772.0392334,
+    "ast_hash": "673e682a4e3886f8c9ede2410add9b8e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\main.py": {
+    "mtime": 1779524275.2814877,
+    "ast_hash": "88fa8e256b59dfdaf518b0934c52c0e2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\seed_lawyers.py": {
+    "mtime": 1779519772.0764587,
+    "ast_hash": "df7fe0e06253d8472849b3ce0a4f645a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\seed_scams.py": {
+    "mtime": 1779519772.0924683,
+    "ast_hash": "75b8f9f6ac3157aa09dca6dec7d31a99",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\test_sarvam.py": {
+    "mtime": 1779519772.124657,
+    "ast_hash": "67e4d034f33115d4c2d45624aa647530",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\test_stream_tts.py": {
+    "mtime": 1779519772.141924,
+    "ast_hash": "03ce84c1a4cadb97e7dcccb6501f0321",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\test_ws.py": {
+    "mtime": 1779519772.1625473,
+    "ast_hash": "284dcedbf165f1a3b3d2ac0fbb35ed61",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\utils.py": {
+    "mtime": 1779519772.1795633,
+    "ast_hash": "63d31d074f30730f942f67e7afc89917",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\voice_processor.py": {
+    "mtime": 1779519772.1955087,
+    "ast_hash": "36eede6993e57457554236e091a98b0e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\webhook_poller.py": {
+    "mtime": 1779519772.2112944,
+    "ast_hash": "8568d6e45024662dd57f1258888a2f99",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\websocket_manager.py": {
+    "mtime": 1779519772.2295344,
+    "ast_hash": "8c020c64bdce9fdc365042e0b9e57fba",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\.vscode\\mcp.json": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "6243212400d2f9c0e4c7e9dc08d0a8d6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\.vscode\\settings.json": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "d0f6fefbb6745ae14da14e81c4d4d257",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\civil_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "0f31bbc8bd80673354481416fbfed12a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\common_utils.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "9c0cc0331e20a53645d58ee17ea20429",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\cyber_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "57e8ee32a5efda789224d41b9e234860",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\document_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "3766d3624ebce6fc4477337a240f0734",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\domestic_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "a746480b22f4beb71ff818f1477b7ca5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\lawyer_forwarder_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "a4f45b5b6c3c51e3eaed036f6e5036ce",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\legal_moderator.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "3b427076b75295bb359ad93dd20a27d3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\nodal_guide_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "950dd39728cf99ca2645b245948cfb57",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\question_processor.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "76693dfbea8e722aed08a124417c5d52",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\report_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "e6c2db197a0f60c40404fae15dbe47ea",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\sahayak_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "1cf2f7a5e86a40a8c89aff447846b04f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\scam_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "cdca409eb2b037b59adb7890b780c1fc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\sexual_offense_agent.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "bf0f0e537e983cb6f2e21fa4078a3187",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\sexual_offense_keywords.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "1ad40654572101f097f44b8b23891504",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\__init__.py": {
+    "mtime": 1779518501.1559107,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\firebase_db.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "89759f82b594836d430deb1f74fef158",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\pdf_service.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "0f5cf95fabc98dbb3402da9694803a97",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\supabase_case_enhance.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "6ba99f3c992db27b98b47b456012c944",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\supabase_db.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "abe15d43b7685dfb449a0a9c20cd51ab",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\vector_db.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "a49f09790def4029f9fc66c29ce6a24b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\database\\__init__.py": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\build.gradle.kts": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "803fe22651fbe96ed401eb0b66a492d1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\settings.gradle.kts": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "f276a44edd917afd836899357fdae60e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\build.gradle.kts": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "c855b096bcf58a9d99f4d419b0c4589c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\kotlin\\com\\example\\mobile_app\\MainActivity.kt": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "d6172880cd7fc1769699f1d7b5386195",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\AppDelegate.swift": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "9e1de9c329a3fe4931876063de95132b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Runner-Bridging-Header.h": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "7ad7b5cea096132de13ba526b2b9efbe",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\SceneDelegate.swift": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "0c3e86af131f6a9e547c80b5ed058914",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Contents.json": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "31a08e429403e265cabfb31b3d65f049",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\Contents.json": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "b9e927ac17345f2d5f052fe68a3487f9",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\RunnerTests\\RunnerTests.swift": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "24e5d095048eb86c30423f4e04b6e57b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\landing_page.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "3b2d3f3b1e42ffae9b0accb668b1b60e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\login_screen.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "b857293c21066c7137343dd16bc1288a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\main.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "0595db6e13c6b1095e631ac2ea019515",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\cases_history_screen.dart": {
+    "mtime": 1779519482.2697964,
+    "ast_hash": "5dd5df3bf05bc779bf535c673daab261",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\case_screen.dart": {
+    "mtime": 1779519482.2536907,
+    "ast_hash": "5387ca295f65e4f9ddb367ebb6fd22e1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\chat_features.dart": {
+    "mtime": 1779519482.2697964,
+    "ast_hash": "c2cca81a61bef262b5dfccc539132f06",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\file_screen.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "9c1a6f8360a2fbf60d73e23633b98c6d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\home_screen.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "c18cddaf499d71b5eb8e93d10f850884",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\scam_heatmap_screen.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "c7f06eabfc130978fc04a6673c6ec340",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\search_screen.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "b9b4d3510197b5e2698922577e20a869",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\app\\widgets\\main_layout.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "f1dc6c468e8ccf437e11035d75e1093e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\models\\models.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "74d1a696c5a4a1dcfd148dc75ccbd99b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\services\\api_service.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "ae12cbfffc746e501a3716896dbb5375",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\lib\\services\\auth_service.dart": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "8255f2a5676ce91399b73e4e0038a32f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\flutter\\generated_plugin_registrant.cc": {
+    "mtime": 1779519482.2857316,
+    "ast_hash": "fd7ce6fc70f4cd92554ae66fe0f983e3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\flutter\\generated_plugin_registrant.h": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "0208db974972d7b29a0ac368be83644b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\runner\\main.cc": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "539395bcd63dba20afed0838d136189f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\runner\\my_application.cc": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "118209d223e8726e39df235c1228b122",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\runner\\my_application.h": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "ffa1a7c0a2ad45a2c14a921596516ff8",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Flutter\\GeneratedPluginRegistrant.swift": {
+    "mtime": 1779519482.317642,
+    "ast_hash": "94fbdcd9536d3795c28f21a1045e7d1a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\AppDelegate.swift": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "4b52e0b89ebfef9baf45b04548c463d6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\MainFlutterWindow.swift": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "93c22dae2d93f3dc1402e121901f582b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Contents.json": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "1d48e925145d4b573a3b5d7960a1c585",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\RunnerTests\\RunnerTests.swift": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "8059f5d27a19c556eeafb49b3f9b7bdd",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\test\\widget_test.dart": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "04b6ea8c418b967af58bd52c92b23e5f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\manifest.json": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "ebef851799c527da5675f91fec2ebfee",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\flutter\\generated_plugin_registrant.cc": {
+    "mtime": 1779519482.3632002,
+    "ast_hash": "dc4705cd8bd1d64a56b82068eded42bb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\flutter\\generated_plugin_registrant.h": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "0c3df6700414e7f332dfa2582a1ae29e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\flutter_window.cpp": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "2f463f9b7da67a2d692a012f9ea85e0c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\flutter_window.h": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "7defcc89d4a26d56e801241d624d48fb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\main.cpp": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "9a0e80e8e7dc62e018a0f47b6b292a8b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\resource.h": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "1ade5dd15e613479a15e8832ed276f2b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\utils.cpp": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "432461b09d862a2f8dadf380ff0e34e5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\utils.h": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "fd81e143f5614eb6fd75efe539002853",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\win32_window.cpp": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "571eb8234dbc2661be03aa5f2a4d2fca",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\win32_window.h": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "7569387d58711ab975940f4df3b4bcda",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\agentic_scraper.py": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "de97cd0f5781bab781bcd6bf0768232e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\debug_search.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "de9e0cb54a26eb337d4bc3ddd6c0ab00",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\fetch_records.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "d56b7cc6f1a06200bc71793353579a37",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\ingest_gram_nyayalaya.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "128b58bb0b99655a1bbafd834280aabd",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\ingest_legal_documents.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "0d601ab9f0ed791f4436dd72b6e6aee7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\manual_scraper.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "fb5f57a7cca8926e83e61a8655d7d5d0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\scrape_legal_data.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "6ade5a02e1aa91cd39896cc1ce992e4e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\scrape_mlats.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "bc4845abb8d61b90c0c1c2c06e00de68",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\seed_legal_rights.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "88409c6eef1a7f3784e50b4a6fb3b8e8",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\setup_pinecone.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "03f8cc48dfc6976039d71e2d05e4ab8a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\store_offences.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "62758b5533aa2c73f8e8cd61884b9c91",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\sync_lawyers_vectors.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "da7f9c26addeea18a178e989969ee991",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_ddg.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "0d6fa4a58068132b0697a059f6c215fa",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_flow.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "f2cbc61d5352c9ea88999892102a09d7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_google.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "da3b2c04b1caf1757cc8b335170f4c99",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_pinecone_connection.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "a9859ea7dc502dc5d5c692a9f56bf9bc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_scam_alert.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "05735b63373a953011559f1fe6929a8d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_ws_client.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "8c11dd4397adfa7e6c5c14cf0d41ff8b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\verify_cyber_bengali.py": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "3b18ab3de8cf5959fee1aa8dcda79452",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\eslint.config.mjs": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "6c4307ffa009658f5c97f5629094c0c2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\next.config.ts": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "0fd9cadb46968b5226c70d8671710c44",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\package.json": {
+    "mtime": 1779525118.3653607,
+    "ast_hash": "f9a65cee4cd447271d45bd968af21371",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\postcss.config.mjs": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "481fac0fdecd70e1821cc30b86030c1a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\tsconfig.json": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "ab575e944f15d39a5486cf9fca385c5e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\layout.tsx": {
+    "mtime": 1779525119.6265476,
+    "ast_hash": "1bad05a930120ddfa02ace7bd6d9e528",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(chat)\\layout.tsx": {
+    "mtime": 1779525708.8241167,
+    "ast_hash": "01980efe19370801ec60d494a0b2e1ed",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(chat)\\cases\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "32551e5771f2412421a24ee1281dfc6f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard\\)\\layout.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "d9c8f2cc5ff4c40eb5defe5a513c6ab7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard\\)\\find-help\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "778f558cc2be72b3b101b2fead79764a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard\\)\\lawyers\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "5905d47303e7032de622694cae23e8ee",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\layout.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "01844769b851f05214c73b1ee7e1fb7f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "640ed8bbe9118e9727083462be87985b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\about\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "5a45f59fe2462e8973eea0981f97be35",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\documents\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "468ef1fbd52c8e966f84312dba1cb57e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\file-case\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "2bb6e5a5780282aba86a334ddf8cae24",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\find-help\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "6ecb5fdab7d35bbce33a1e8ec8d3b015",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\lawyer\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "74335c27a1528a2571609ed6a1030801",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\lawyer\\cases\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "c535f7cec57e602774790a55fdf48076",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\lawyer\\profile\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "5e942c8f48ca535a02b995df486764a0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\lawyers\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "1eeb50bd6c2fa06de4b095b9b362ac88",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\legal-rights\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "b30a675a7b41ec2602b913cd67966cfc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\my-cases\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "6e45e7b805a8b767554122c5a9b39f66",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\resources\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "2e5b531472772c9ed453e4c4c62e9cde",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\sahayak\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "651459393f3225a0d3361f9a5b8df7bd",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\sahayak\\profile\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "5b52e187a7a57a0475492ec1e383da40",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(dashboard)\\scam-heatmap\\page.tsx": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "35f3bdad247d51cb7fdbdf919d3a9f6f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\lawyer\\cases\\route.ts": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "a21c4482e4b693484329863bd4c45af8",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\lawyer\\profile\\route.ts": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "4243c55606373c3ba3647a6de6b36b86",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\login\\page.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "2104502dfe502f0a62fb1537ba7dac9e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\moderator\\page.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "ff6e9ee9ac2e78e4ca7c624557387bd0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\signup\\page.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "30355978631975200f5561627a7b2052",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\auth\\AuthModal.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "f36005342b779818ebec2c212b11708a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\ActionButtons.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "9e26bf6bca928139875da3628d6e6d16",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\AgentLog.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "9c40506d63751c585a421e9f77548c6b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\CaseSidebar.tsx": {
+    "mtime": 1779518501.2830317,
+    "ast_hash": "86f5c8ffd69f7640cac92b797b1de09f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\ChatInterface.tsx": {
+    "mtime": 1779523375.6425223,
+    "ast_hash": "5bd407a409039cc606219d5b080fc383",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\FemaleCounsellorPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "66090a385754a8d6ef9e658d21705234",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\FemaleLawyerPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "9a8d1f8ec73013c42572a9152b3c4e21",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\LawyerBrowserPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "a83b74c6a6637da0f93ea962937aebcb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\LawyerSuggestions.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "28bb06edc703dc36c3cb752a35359eac",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\NodalGuideBrowserPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "71662190533d2f34f5345e8fd0f3a58f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\PDFDownloadPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "490947bcb93b6899263c4705d4da49ba",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\RoutingConsentModal.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "1f11645554c616d229905682cd6c3e22",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\SahayakBrowserPanel.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "7edec973229881799eaf46e8d62ee61b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\SexualOffenseScreening.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "5f59bc63bfb0687527f7203e2dfc6c93",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\StructuredReport.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "bfb0b21b073c810aedd103fb6e9ee30b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\chat\\VoiceInput.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "12f74fb1290a736ba813951669268f76",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\Actions.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "988ff9aefb587d99deed92cbb3e75d36",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\Header.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "9030d002405c4b2a35b42ba9b4562ae0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\LegalModeratorDashboard.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "af2690bb4619058f360615e32524e73a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\ScamHeatmap.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "b414ea37cb1726aa8fbd994e55f7a39e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\Services.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "b0a01284091a9cb45f554b37ac4045e1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\dashboard\\Sidebar.tsx": {
+    "mtime": 1779523574.4309804,
+    "ast_hash": "5dab05ae4ad54657f1bb2617d9a01fe6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\context\\AuthContext.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "9c028060a52f3d9cff80e82235e58da6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\context\\CaseContext.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "094d16747ff302d16f43c9ae4a9255c5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\context\\ChatContext.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "473070a2778409bad0b8afcbe9b70fd0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\context\\LanguageContext.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "4f551c34c9a131ca48048e984209ccc2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\context\\LawyerContext.tsx": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "6b16c291b0a3fd461140749b22b6ff24",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\firebase.ts": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "c12e169328a1f0367ffbc8d4f44560d9",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\utils.ts": {
+    "mtime": 1779525122.1564336,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\requirements.txt": {
+    "mtime": 1779523426.8255198,
+    "ast_hash": "8554e0ba651a406055423265a7564f6e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\analysis_options.yaml": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "9e65f4b9beebb674c0dc252f70a5c177",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\pubspec.yaml": {
+    "mtime": 1779519482.3496268,
+    "ast_hash": "acdf3642b4535e08774f55750326011f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\README.md": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "445461485b91e5734bdaba4b07e0f0e8",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "f7ee1b402881509d197f34963e569927",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\CMakeLists.txt": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "09d7f3e5d51386a47992984b3f008bb2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\flutter\\CMakeLists.txt": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "2195470ce31675d31db5a37590d011f6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\linux\\runner\\CMakeLists.txt": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "30cc1614b16214b66c014af09ba699eb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\index.html": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "751ec5901f1d1cbdc7a98112e16251b9",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\CMakeLists.txt": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "49d8495d95f1361b956194f5a11df0d6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\flutter\\CMakeLists.txt": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "bbf66fed5180bd9ae8198b8d7c4a0001",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\windows\\runner\\CMakeLists.txt": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "028602ab9754bffe716659ada7590d29",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_results.txt": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "4b4da317601472aafeea1d636ade19ff",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\scripts\\test_results_utf8.txt": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "ff5bf68f0f07b420a5f5707946a5a88e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lint_output.txt": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "23c2a4fbb5dcdbcd8bd55f685ec926f7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\README.md": {
+    "mtime": 1779518501.2670448,
+    "ast_hash": "9162add00befbcdb432430f405c4ad8d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\assets\\CPA2019.pdf": {
+    "mtime": 1779518501.1718123,
+    "ast_hash": "ba2febac2bd18436d4152ca5157e6cb3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\assets\\gram nayalaya act 2008.pdf": {
+    "mtime": 1779518501.1718123,
+    "ast_hash": "dc171465ace84b82c345478dd58c9881",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\assets\\test cases for gramnyayalays.pdf": {
+    "mtime": 1779518501.2033653,
+    "ast_hash": "dd4adf3d57bb7acda1b828776254e133",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "13e9c72ec37fac220397aa819fa1ef2d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "6270344430679711b81476e29878caa7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "a0a8db5985280b3679d99a820ae2db79",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "afe1b655b9f32da22f9a4301bb8e6ba8",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "57838d52c318faff743130c3fcfae0c6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-1024x1024@1x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "c785f8932297af4acd5f5ccb7630f01c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@1x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "a2f8558fb1d42514111fbbb19fb67314",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@2x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "2247a840b6ee72b8a069208af170e5b1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@3x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "1b3b1538136316263c7092951e923e9d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@1x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "be8887071dd7ec39cb754d236aa9584f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@2x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "043119ef4faa026ff82bd03f241e5338",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@3x.png": {
+    "mtime": 1779518501.2191403,
+    "ast_hash": "2b1452c4c1bda6177b4fbbb832df217f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@1x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "2247a840b6ee72b8a069208af170e5b1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@2x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "8245359312aea1b0d2412f79a07b0ca5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@3x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "5b3c0902200ce596e9848f22e1f0fe0e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@2x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "5b3c0902200ce596e9848f22e1f0fe0e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@3x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "e419d22a37bc40ba185aca1acb6d4ac6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@1x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "36c0d7a7132bdde18898ffdfcfcdc4d2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@2x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "643842917530acf4c5159ae851b0baf2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-83.5x83.5@2x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "665cb5e3c5729da6d639d26eff47a503",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "978c1bee49d7ad5fc1a4d81099b13e18",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@2x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "978c1bee49d7ad5fc1a4d81099b13e18",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@3x.png": {
+    "mtime": 1779518501.2349794,
+    "ast_hash": "978c1bee49d7ad5fc1a4d81099b13e18",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_1024.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "c9becc9105f8cabce934d20c7bfb6aac",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_128.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "3ded30823804caaa5ccc944067c54a36",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_16.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "8bf511604bc6ed0a6aeb380c5113fdcf",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_256.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "dfe2c93d1536ae02f085cc63faa3430e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_32.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "8e0ae58e362a6636bdfccbc04da2c58c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_512.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "0ad44039155424738917502c69667699",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_64.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "04e7b6ef05346c70b663ca1d97de3ad5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\favicon.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "5dcef449791fa27946b3d35ad8803796",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\icons\\Icon-192.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "ac9a721a12bbc803b44f645561ecb1e1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\icons\\Icon-512.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "96e752610906ba2a93c65f8abe1645f1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\icons\\Icon-maskable-192.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "c457ef57daa1d16f64b27b786ec2ea3c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\mobile_app\\web\\icons\\Icon-maskable-512.png": {
+    "mtime": 1779518501.2511494,
+    "ast_hash": "301a7604d45b3e739efc881eb04896ea",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\1.png": {
+    "mtime": 1779518501.2877455,
+    "ast_hash": "21c1c5e12b1b33bd70bc4883aac87287",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\2.png": {
+    "mtime": 1779518501.2988963,
+    "ast_hash": "8705f8b898fb2eb91638da6cf87e83fe",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\3.png": {
+    "mtime": 1779518501.2988963,
+    "ast_hash": "a85824633d2afd559961064315b2f376",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\4.png": {
+    "mtime": 1779518501.2988963,
+    "ast_hash": "d1b0679866cb2aa0e6a2c056b0726f64",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\favicon.png": {
+    "mtime": 1779518501.3147004,
+    "ast_hash": "82803f90a1e5a78ab67b0647e1f580f2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\file.svg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\globe.svg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\lady-justice.png": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "6d0f879e88e2e34889b72fbf9ea33138",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\logo.png": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "5cb923dfad4cfd6149e9fd817e23a559",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\next.svg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\user-profile.png": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "f959767005a4d9eef27e93eaa715ca7e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\vercel.svg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\window.svg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\public\\uploads\\lawyers\\dHWD8qyVouTBSZmte41BUwQ8Igj2-1773142047340.jpeg": {
+    "mtime": 1779518501.3307455,
+    "ast_hash": "10f2b08a5c39b34ebc4d4b17782c846c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\clash_graph.py": {
+    "mtime": 1779530246.271255,
+    "ast_hash": "a4281bd655bda1abed560ae91d5cfc13",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\clash_schemas.py": {
+    "mtime": 1779526524.9174678,
+    "ast_hash": "bcb86ca4511559ac6eeae9599821ca80",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\clash_service.py": {
+    "mtime": 1779530176.1398218,
+    "ast_hash": "cbf45380d9ebc4f64a2a95f18d0dbe55",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\defence.py": {
+    "mtime": 1779530267.7389562,
+    "ast_hash": "3f9f391ed39dc47cca384ccad11a9c44",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\incorporate.py": {
+    "mtime": 1779530244.9757712,
+    "ast_hash": "584b2042487501acec183f8926957b1e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\judge.py": {
+    "mtime": 1779530300.2881985,
+    "ast_hash": "434b4297b0e9da97190b15b76b79d9f5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\llm.py": {
+    "mtime": 1779528117.500885,
+    "ast_hash": "f98cce075c56de4ee0ec9a835667f6dd",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\preprocess.py": {
+    "mtime": 1779530240.0438108,
+    "ast_hash": "278e4c790e3c19b324997353de7213f6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\prompts.py": {
+    "mtime": 1779530233.4606423,
+    "ast_hash": "0d097830f76b438d1ac7c19b032ef78a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\prosecution.py": {
+    "mtime": 1779530258.440566,
+    "ast_hash": "200543aa7f8c7d055858227afcdc1077",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\utils.py": {
+    "mtime": 1779530292.1006422,
+    "ast_hash": "338145bcf20ad2418aadffa7aea1a4f2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\__init__.py": {
+    "mtime": 1779528541.2234302,
+    "ast_hash": "73ee8a33d700d24a9c9ccbae8ee37625",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\data\\clash_mock_cases.json": {
+    "mtime": 1779523133.9776306,
+    "ast_hash": "7993d697d16c3a0589345e157635404f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\(chat)\\clash\\page.tsx": {
+    "mtime": 1779525250.2165613,
+    "ast_hash": "0491ff0699ce5eda194c7c87bd3de2ad",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\CaseInputForm.tsx": {
+    "mtime": 1779525214.9641066,
+    "ast_hash": "b8cf06565b2bd311e51aac8d9e4a02fa",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashDebateTranscript.tsx": {
+    "mtime": 1779528622.5902183,
+    "ast_hash": "57e33fd17b516e56bcb2ee80529c42ee",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashFloatingButton.tsx": {
+    "mtime": 1779523357.7013154,
+    "ast_hash": "21621c3bc4eadfd05dde298118413349",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashMessageBubble.tsx": {
+    "mtime": 1779529354.2189865,
+    "ast_hash": "7ef2db11ecf7d4203dc656ccda0008de",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashModeSelector.tsx": {
+    "mtime": 1779525210.2202404,
+    "ast_hash": "19744e5ec0ba331434f4afd7cf324b2c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashPageShell.tsx": {
+    "mtime": 1779526678.8860266,
+    "ast_hash": "6b026a0e0cc84b3dcee9a435df403622",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashQuestionCard.tsx": {
+    "mtime": 1779528611.841856,
+    "ast_hash": "5c0928a10b8e7e509732f8b5b0f43031",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashScorePanel.tsx": {
+    "mtime": 1779523290.9570582,
+    "ast_hash": "75fe954261b7c3bce4bc1bdf059bfc1e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashVerdictPanel.tsx": {
+    "mtime": 1779523295.498392,
+    "ast_hash": "09754eb1a84dc27da6118dbac9f8842f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\MockCasePicker.tsx": {
+    "mtime": 1779525222.1457994,
+    "ast_hash": "df85ca380f1b9440e98d5934e5456309",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\hooks\\useClashStream.ts": {
+    "mtime": 1779528638.91347,
+    "ast_hash": "0d0aaafc7209331ea69c314989318167",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\hooks\\useNdjsonStream.ts": {
+    "mtime": 1779523247.3093796,
+    "ast_hash": "1da6e6938893f0a505ea8d8930f1fdc2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\clashApi.ts": {
+    "mtime": 1779526590.332537,
+    "ast_hash": "96ca574e33e18b17512ec4888a8fdb80",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\.cursor\\plans\\clash_mode_feature_4fe35ada.plan.md": {
+    "mtime": 1779523473.7830906,
+    "ast_hash": "7a60645a150e877c6b61fa614a890bdf",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\constants.py": {
+    "mtime": 1779526416.3485036,
+    "ast_hash": "d9b15e6425c7637ea95884cd89f4d097",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components.json": {
+    "mtime": 1779525083.325894,
+    "ast_hash": "63b2c4fcf776fec9dbc76e94ea0d70c6",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\next-env.d.ts": {
+    "mtime": 1779525288.966106,
+    "ast_hash": "b698cdd97fe8e3bd16dcd74899ad7cef",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\clash\\mock-cases\\route.ts": {
+    "mtime": 1779523680.2054536,
+    "ast_hash": "93fcc33cf8fbba3f713a41c2aa6e02b4",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\clash\\sessions\\route.ts": {
+    "mtime": 1779523682.5270624,
+    "ast_hash": "f325a2e9e368b1aa21d7b9aefbbefb21",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\clash\\sessions\\[sessionId]\\answer\\route.ts": {
+    "mtime": 1779524276.6467845,
+    "ast_hash": "cda7c831ef653db087e8fd0a94530a5f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\clash\\sessions\\[sessionId]\\case\\route.ts": {
+    "mtime": 1779523684.8605542,
+    "ast_hash": "13ecf26926e090124d2ea24a1cb16c99",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\app\\api\\clash\\sessions\\[sessionId]\\stream\\route.ts": {
+    "mtime": 1779524275.2804878,
+    "ast_hash": "b578a51c3d0844efdf3086c4fc1c2466",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashBenchSidebar.tsx": {
+    "mtime": 1779529688.007632,
+    "ast_hash": "7d7de73ae38098fac50339f4bad9afcc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashJudgmentCard.tsx": {
+    "mtime": 1779526662.120638,
+    "ast_hash": "bb0d3c216a0cf1aba191699cace94c17",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashParametersPanel.tsx": {
+    "mtime": 1779526641.0039017,
+    "ast_hash": "bfde030ace65e593d6ef59e5b0bada47",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashReasoningBlock.tsx": {
+    "mtime": 1779529458.2820072,
+    "ast_hash": "2ee626b1ab927da2392c55bf0ce84a49",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashRoundScoreCard.tsx": {
+    "mtime": 1779526648.950264,
+    "ast_hash": "46c7235af15e4ff24be16e8801f42710",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\alert.tsx": {
+    "mtime": 1779525164.0482092,
+    "ast_hash": "739c28799fae98b4fa01132494788e85",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\badge.tsx": {
+    "mtime": 1779525163.1101327,
+    "ast_hash": "e4ec840217040d5630ee6ed7213a1d72",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\button.tsx": {
+    "mtime": 1779525121.75523,
+    "ast_hash": "705bf3552a39e0c722665ccbecb30654",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\card.tsx": {
+    "mtime": 1779525161.4651515,
+    "ast_hash": "77a10bd948ca424972a28e704a3df604",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\input.tsx": {
+    "mtime": 1779525161.8459258,
+    "ast_hash": "0607b02d99a2e92f9509223f36ccc6ec",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\label.tsx": {
+    "mtime": 1779525162.2749069,
+    "ast_hash": "a70440da86bfc6a07f15197cca48cb08",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1779525164.4709861,
+    "ast_hash": "ac8fc719d0fd13c77c933474827337da",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\separator.tsx": {
+    "mtime": 1779525163.524269,
+    "ast_hash": "3de2dca3e47ab29c4b1f632671545628",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\tabs.tsx": {
+    "mtime": 1779525161.0351205,
+    "ast_hash": "429035bc858475cd3bcedbb08a5ba8da",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\ui\\textarea.tsx": {
+    "mtime": 1779525162.7393546,
+    "ast_hash": "d448d2a90e48542e51b93a1189127bf2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\clashBackend.ts": {
+    "mtime": 1779523678.1400025,
+    "ast_hash": "0324c5b3758d716bfd836d70dc681ea0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\clashMockCases.ts": {
+    "mtime": 1779523676.8683531,
+    "ast_hash": "11e65f621ac23e22f460446c95176e88",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\agents\\clash\\defence_cross.py": {
+    "mtime": 1779530285.5729413,
+    "ast_hash": "73e2affa3fe05be86599ed8bded87698",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\components\\clash\\ClashVerdictPieChart.tsx": {
+    "mtime": 1779529683.6272168,
+    "ast_hash": "85034f339024784dce6c7c0c33aad012",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\Hackarena\\web_app\\lib\\clashVerdictWeights.ts": {
+    "mtime": 1779529670.9869378,
+    "ast_hash": "7d150e02c5d733b02c6e1b1122c38c6c",
+    "semantic_hash": ""
+  }
+}

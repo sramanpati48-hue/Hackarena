@@ -64,7 +64,7 @@ function ChatLayoutContent({ children }: { children: React.ReactNode }) {
       </header>
 
       {/* Full Screen Chat Area */}
-      <div className="flex-1 overflow-hidden">
+      <div className="min-h-0 flex-1 overflow-hidden">
         {children}
       </div>
     </div>
